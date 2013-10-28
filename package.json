@@ -1,0 +1,6 @@
+{
+  "name": "parsedatetime",
+  "description": "Parse human-readable dates and times.",
+  
+  "main": "lib/main"
+}
