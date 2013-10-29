@@ -5,14 +5,14 @@ A way of parsing human readable dates and timespans in Javascript.
 ## Usage
 
 ```javascript
-	var parseDateTime = require("parsedatetime");
+var parseDateTime = require("parsedatetime");
 
-	var date = parseDateTime("in 10 minutes");
-	if (date) {
-		console.log("Got it:", date);
-	} else {
-		console.log("That's not a date!");
-	}
+var date = parseDateTime("in 10 minutes");
+if (date) {
+	console.log("Got it:", date);
+} else {
+	console.log("That's not a date!");
+}
 ```
 
 ## Inputs and Responses

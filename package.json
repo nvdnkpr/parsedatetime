@@ -1,6 +1,6 @@
 {
   "name": "parsedatetime",
-  "description": "Parse human-readable dates and times.",
+  "description": "A way of parsing human readable dates and timespans in Javascript.",
   "main": "lib/main",
   "version": "0.0.1",
   "directories": {
