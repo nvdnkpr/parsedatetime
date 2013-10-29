@@ -37,5 +37,4 @@ A way of parsing human readable dates and timespans in Javascript.
 
 ## Mistakes
 
-The parser aims to be pretty strict while also accepting "odd" inputs. Sometimes
-it will 
+The parser aims to be pretty strict while also accepting "odd" inputs. Sometimes it will understand inputs that are very ambigious but also disallow inputs that some people may think are fairly clear. Feel free to submit an issue if you believe the parser is not working correctly for a particular input string.

@@ -1,6 +1,28 @@
 {
   "name": "parsedatetime",
   "description": "Parse human-readable dates and times.",
-  
-  "main": "lib/main"
+  "main": "lib/main",
+  "version": "0.0.1",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomleese/parsedatetime.git"
+  },
+  "keywords": [
+    "parse",
+    "date",
+    "time",
+    "human"
+  ],
+  "author": "Tom Leese <leese.thomas81@gmail.com> (http://tomleese.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomleese/parsedatetime/issues"
+  }
 }
+
