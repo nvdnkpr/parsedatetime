@@ -59,9 +59,9 @@ describe("ambigous times", function() {
 
 describe("invalid times", function() {
   it("should refuse invalid times", function() {
-    assert.ok(parseDateTime("yeah, this is a date"));
-    assert.ok(parseDateTime("10 o'clock"));
-    assert.ok(parseDateTime("10 past 5"));
-    assert.ok(parseDateTime("10 minutes 5"));
+    assert.equal(null, parseDateTime("yeah, this is a date"));
+    assert.equal(null, parseDateTime("10 o'clock"));
+    assert.equal(null, parseDateTime("10 past 5"));
+    assert.equal(null, parseDateTime("10 minutes 5"));
   });
 });
